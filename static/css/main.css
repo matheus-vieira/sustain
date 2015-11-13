@@ -6,11 +6,11 @@ body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
+  border-top: 3px solid rgb(13, 194, 234);
 }
 /* Wrapper for page content to push down footer */
 #wrap {
-  padding-bottom: 50px;	
+  padding-bottom: 50px; 
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
@@ -96,10 +96,10 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color: #27A822;
+  color: rgb(13, 194, 234);
 }
 .container a:hover {
-  color: #267723;
+  color: #337ab7;
 }
 .img-responsive {
  display: block;
@@ -121,10 +121,10 @@ body {
   font-size: 15px;
 }
 .panel-default h4 a, h5 a {
-  color: #27A822;
+  color: rgb(13, 194, 234);
 }
 .panel-default h4 a:hover, h5 a:hover {
-  color: #267723;
+  color: #337ab7;
 }
 .panel{
   border-style: none;
@@ -149,6 +149,10 @@ body {
 .blog-title{
   padding-top: 2px;
 }
+.post img {
+  width: 100%;
+  height: 100%;
+}
 .related-posts h4 {
   text-align: center;
 }
@@ -166,10 +170,10 @@ body {
   text-decoration: none !important;
 }
 .text-muted {
-	color: #6b6b6b;
+  color: #6b6b6b;
 }
 div.footer{
-  border-bottom: 5px solid #27A822;;
+  border-bottom: 5px solid rgb(13, 194, 234);
 }
 /* Set the fixed height of the footer here */
 /*.footer {
