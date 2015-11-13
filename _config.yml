@@ -1,5 +1,4 @@
 # top level stuff you probably don't need to touch
-highlighter: rouge
 highlighter: pygments
 markdown: rdiscount
 rdiscount:
@@ -11,8 +10,7 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://end2endsystems.com.br/
-baseurl: /
+url: http://www.end2endsystems.com.br/
 title: Matheus Costa Vieira
 author: Matheus Costa Vieira
 description: Personal blog and resume
