@@ -13,16 +13,16 @@ hosted in [Github pages](https://pages.github.com/).
 ## Screenshots
 
 **Home page**
-![home page](https://raw.githubusercontent.com/matheus-vieira/sustain/assets/images/screen1.png)
+![home page](https://raw.githubusercontent.com/matheus-vieira/sustain/gh-pages/assets/images/screen1.png)
 
 **Blog page**
-![blog page](https://raw.githubusercontent.com/matheus-vieira/sustain/assets/images/screen2.png)
+![blog page](https://raw.githubusercontent.com/matheus-vieira/sustain/gh-pages/assets/images/screen2.png)
 
 **Post page**
-![post page](https://raw.githubusercontent.com/matheus-vieira/sustain/assets/images/screen3.png)
+![post page](https://raw.githubusercontent.com/matheus-vieira/sustain/gh-pages/assets/images/screen3.png)
 
 **Projects page**
-![project page](https://raw.githubusercontent.com/matheus-vieira/sustain/assets/images/screen4.png)
+![project page](https://raw.githubusercontent.com/matheus-vieira/sustain/gh-pages/assets/images/screen4.png)
 
 
 ## How to use it
