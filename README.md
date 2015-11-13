@@ -7,32 +7,28 @@ hosted in [Github pages](https://pages.github.com/).
 
 ## View the live demo
 
-[Sustain Live Demo](https://biomadeira.github.io/sustain)
+[Sustain Live Demo](https://matheus-vieira.github.io/sustain)
 
 
 ## Screenshots
 
 **Home page**
-![home page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen1.png)
+![home page](https://raw.githubusercontent.com/matheus-vieira/sustain/assets/images/screen1.png)
 
 **Blog page**
-![blog page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen2.png)
+![blog page](https://raw.githubusercontent.com/matheus-vieira/sustain/assets/images/screen2.png)
 
 **Post page**
-![post page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen3.png)
+![post page](https://raw.githubusercontent.com/matheus-vieira/sustain/assets/images/screen3.png)
 
 **Projects page**
-![project page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen4.png)
+![project page](https://raw.githubusercontent.com/matheus-vieira/sustain/assets/images/screen4.png)
 
 
 ## How to use it
 
 Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
 Edit the site attributes in *_config.yml* and edit the various entries in *_includes/* and *_posts/*.
-
-## Thanks 
-
-Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
 
 
 ## Copyright & License
