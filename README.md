@@ -7,7 +7,7 @@ hosted in [Github pages](https://pages.github.com/).
 
 ## View the live demo
 
-[Sustain Live Demo](https://matheus-vieira.github.io/sustain)
+[Sustain Live Demo]({{ site.github }}.github.io)
 
 
 ## Screenshots
