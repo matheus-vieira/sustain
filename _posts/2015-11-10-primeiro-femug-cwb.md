@@ -2,7 +2,7 @@
 layout: post
 title: "Primeiro Femug-CWB"
 date: 2015-11-10 13:04:03
-image: '{{ site.baseurl }}static/img/posts/femug-cwb-001/primeiro-femug-cwb.png'
+image: '{{ site.baseurl }}/static/img/posts/femug-cwb-001/primeiro-femug-cwb.png'
 description: "Resenha sobre o primeiro Front-End Meetup Grupo de Curitiba"
 tags: braziljs femug-cwb meetup curitiba
 categories:
@@ -16,7 +16,7 @@ photo: mvieira.jpg
 Pessoal no dia 7 de novembro de 2015 foi organizado o primeiro Meetup do grupo FEMUG-CWB (Curitiba e região), pertencente ao BrazilJS. Nesse encontro, apesar de outros eventos ocorridos na mesma data, alcançamos um bom público que ficou interessado em próximos eventos e vai convidar mais pessoas. Apesar do foco do encontro ser front-end, tivemos a participação de muitos desenvolvedores back-end desejosos pelo conhecimento front-end! :D
 Quanto a programação do evento, ocorreram palestras e um coffe-break onde o pessoal pôde trocar ideia, e realizar aquele famoso networking!
 
-![Organizadores e Participantes]({{ site.baseurl }}static/img/posts/femug-cwb-001/galera.jpg)
+![Organizadores e Participantes]({{ site.baseurl }}/static/img/posts/femug-cwb-001/galera.jpg)
 
 No início, tivemos o Fernando Moreira, agitador e idealizador do FEMUG-CWB, mostrando como surgiu a ideia do encontro e o porquê de escolher o formato [FEMUG](https://github.com/braziljs/femug), e deixando também os meios de contato do grupo no Facebook, Slack, etc.
 
@@ -47,5 +47,3 @@ Acesse [talks](https://docs.google.com/forms/d/16PqdkOuVro7eBZEqIEfLTScQCUpILeui
 
 Quer ser o anfitrião de um encontro?
 Acesse [anfitriões](https://docs.google.com/forms/d/1J5ODCiLZe2VGufA-UO6_L7qhTg3BEmziQAaUsCWoFhQ/viewform?c=0&w=1)
-
-Post originalmente publicado no [blog](http://end2endsystems.com.br/meetup/primeiro-femug-cwb/) do autor

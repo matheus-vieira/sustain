@@ -1,0 +1,14 @@
+<section>
+	<article>
+		<h4>Company: <strong>{{ page.company }}</strong></h4>
+		<p>Admission Date: {{ page.admissiondate | date: "%B %e, %Y" }}</p>
+		<p>Resignation Date: {{ page.resignationdate | date: "%B %e, %Y" }}</p>
+		{{ content }}
+		{% for language in page.languages %}
+		<span class="label label-success">{{ language }}</span>
+		{% endfor %}
+		{% for framework in page.frameworks %}
+		<span class="label label-success">{{ framework }}</span>
+		{% endfor %}
+	</article>
+</section>
