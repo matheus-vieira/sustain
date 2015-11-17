@@ -1,6 +1,7 @@
 ---
-title: "Descrição da Graduação 1"
-jobtitle: "Graduação 1"
+layout: experience
+title: "Descrição do trabalho"
+jobtitle: "System Analyst"
 admissiondate: 2012-03-01
 resignationdate: 2014-06-12
 company: Systrack

@@ -17,9 +17,9 @@ title: Curriculum Vitae
         <article>
             <header><h4>Formação Acadêmica</h4></header>
             <ul>
-               {% for graduation in site.data.graduations %}
+               {% for graduation in site.graduations %}
                 <li>
-                    {% include graduations/{{ graduation.slug }}.md %}
+                    {{ graduation.output }}
                 </li>
                 {% endfor %}
             </ul>
@@ -29,9 +29,9 @@ title: Curriculum Vitae
         <article>
             <header><h4>Experiência Profissional</h4></header>
             <ul>
-                {% for experience in site.data.experiences %}
+                {% for experience in site.experiences %}
                     <li>
-                        {% include experiences/{{ experience.slug }}.md %}
+                        {{ experience.output }}
                     </li>
                 {% endfor %}
             </ul>

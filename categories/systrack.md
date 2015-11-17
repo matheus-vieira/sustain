@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: experience
 title: "Descrição do trabalho"
 jobtitle: "System Analyst"
 admissiondate: 2012-03-01

@@ -12,6 +12,9 @@ paginate_path: "page:num"
 port: 3000
 safe: true
 
+collections:
+- graduations
+- experiences
 
 # edit here to achieve your personal greatness
 url: http://www.end2endsystems.com.br/
