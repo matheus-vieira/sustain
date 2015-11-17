@@ -1,5 +1,6 @@
 ---
 layout: layout
+permalink: /vitae/
 title: Curriculum Vitae
 ---
 <div class="container">
@@ -16,9 +17,9 @@ title: Curriculum Vitae
         <article>
             <header><h4>Formação Acadêmica</h4></header>
             <ul>
-               {% for graduation in site.graduations %}    
+               {% for graduation in site.data.graduations %}
                 <li>
-                    {{ content }}
+                    {% include graduations/{{ graduation.slug }}.md %}
                 </li>
                 {% endfor %}
             </ul>
@@ -28,9 +29,9 @@ title: Curriculum Vitae
         <article>
             <header><h4>Experiência Profissional</h4></header>
             <ul>
-                {% for experience in site.data.experiences %}    
+                {% for experience in site.data.experiences %}
                     <li>
-                        {{ content }}
+                        {% include experiences/{{ experience.slug }}.md %}
                     </li>
                 {% endfor %}
             </ul>
