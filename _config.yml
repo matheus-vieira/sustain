@@ -3,7 +3,7 @@ highlighter: pygments
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-permalink: /blog/article/:title.html
+permalink: /blog/:year/:month/:day/:title
 
 
 gems: [jekyll-paginate]

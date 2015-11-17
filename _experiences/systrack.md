@@ -7,7 +7,7 @@ resignationdate: 2014-06-12
 company: Systrack
 description: "Job description on Systrack"
 languages: [javascript, java ,c#]
-frameworks: KnockoutJS
+frameworks: [.NET, KnockoutJS, jQuery]
 ---
 
-Projetos de rastreamento de veículos.
+Real time tracking vehicles.
