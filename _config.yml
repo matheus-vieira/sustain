@@ -3,11 +3,18 @@ highlighter: pygments
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-permalink: :title.html
+permalink: /blog/article/:title.html
+
+
+gems: [jekyll-paginate]
 paginate: 5
+paginate_path: "page:num"
 port: 3000
 safe: true
 
+collections:
+- graduations
+- experiences
 
 # edit here to achieve your personal greatness
 url: http://www.end2endsystems.com.br/
@@ -16,10 +23,13 @@ author: Matheus Costa Vieira
 description: Personal blog and resume
 avatar: profile.png
 email: matheus@end2endsystems.com.br
+
+
 github: matheus-vieira
 twitter: macostavieira
 linkedin: macostavieira
 facebook: macovieira
 googleplus: MatheusCostaVieira
 disqus: matheuscostavieira
+
 google_analytics: UA-27171689-1
