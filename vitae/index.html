@@ -1,0 +1,38 @@
+---
+layout: layout
+permalink: /vitae/
+title: Curriculum Vitae
+---
+
+<style type="text/css">
+    .row {
+        border-bottom: 2px solid rgb(13, 194, 234);
+        padding-bottom: 5px;
+    }
+</style>
+<div class="container">
+    <div class="jumbotron">
+      <div class="container">
+        <h2>{{ page.title }}</h2>
+        <h3>Purpose</h3>
+        <p>Create new and better concepts with design patterns and best practices for application development. Working together with a team focused on better solution for applications, independent of the language used and the plataforma that the system will be used.</p>
+      </div>
+    </div>
+
+    <div class="row">
+        <h2>Academic education</h2>
+        {% for graduation in site.graduations %}
+        <section class="col-lg-4 col-md-6 col-xs-12">
+            {{ graduation.output }}
+        </section>
+        {% endfor %}
+    </div>
+    <div class="row">
+        <h2>Professional Experience</h2>
+        {% for experience in site.experiences %}
+        <section class="col-md-4">
+            {{ experience.output }}
+        </section>
+        {% endfor %}
+    </div>
+</div>
