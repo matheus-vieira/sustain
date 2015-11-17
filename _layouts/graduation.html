@@ -1,7 +1,5 @@
-<section>
-	<article>
-		<h4>Instituição: <strong>{{ page.institution }}</strong></h4>
-		<p>Curse: {{ page.curse }}</p>
-		{{ content }}
-	</article>
-</section>
+<h4>Institution: <strong>{{ page.institution }}</strong></h4>
+<p>Graduation type: <strong>{{ page.type }}</strong></p>
+<p>Course: {{ page.course }}</p>
+<p>Date: {{ page.startdate }} - {{ page.enddate }}</p>
+{{ content }}
