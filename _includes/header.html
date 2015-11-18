@@ -5,10 +5,11 @@
     </div>
     <div id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.baseurl }}/blog">BLOG</a></li>
-        <!-- <li><a href="{{ site.baseurl }}/projects">PROJECTS</a></li> -->
-        <li><a href="{{ site.baseurl }}/skills">SKILLS</a></li>
-        <li><a href="{{ site.baseurl }}/vitae">RESUME</a></li>
+        {% assign pages = site.pages | where:"header", 1 %}
+        
+        {% for page in pages %}
+          <li><a href="{{ page.url }}">{{ page.link_text }}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>
