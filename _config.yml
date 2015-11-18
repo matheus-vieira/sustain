@@ -5,6 +5,7 @@ rdiscount:
   extensions: [smart]
 permalink: /blog/:year/:month/:day/:title
 
+exclude: [vendor]
 
 gems: [jekyll-paginate]
 paginate: 5
@@ -17,7 +18,7 @@ collections:
 - experiences
 
 # edit here to achieve your personal greatness
-url: http://www.end2endsystems.com.br/
+url: //www.end2endsystems.com.br/
 title: Matheus Costa Vieira
 author: Matheus Costa Vieira
 description: Personal blog and resume
