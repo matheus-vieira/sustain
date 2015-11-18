@@ -5,6 +5,7 @@ rdiscount:
   extensions: [smart]
 permalink: /blog/:year/:month/:day/:title
 
+exclude: [vendor]
 
 gems: [jekyll-paginate]
 paginate: 5
