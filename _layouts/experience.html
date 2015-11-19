@@ -1,13 +1,15 @@
 <div class="well well-sm">
   <h4>Company: <strong>{{ page.company }}</strong></h4>
-  <p>Admission Date: {{ page.admissiondate | date: "%B %e, %Y" }}</p>
-  <p>Resignation Date: {{ page.resignationdate | date: "%B %e, %Y" }}</p>
+  <span><strong>{{ page.admissiondate | date: "%B %e, %Y" }}</strong></span>
+  -
+  <span><strong>{{ page.resignationdate | date: "%B %e, %Y" }}</strong></span><br />
   {{ content }}
-  <h5>Languages used</h5>
+  <strong>Languages used</strong><br />
   {% for language in page.languages %}
   <span class="label label-warning">{{ language }}</span>
   {% endfor %}
-  <h5>Frameworks used</h5>
+  <br />
+  <strong>Frameworks used</strong><br />
   {% for framework in page.frameworks %}
   <span class="label label-info">{{ framework }}</span>
   {% endfor %}
