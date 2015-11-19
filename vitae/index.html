@@ -13,13 +13,22 @@ lang: en
         padding-bottom: 5px;
     }
 </style>
-<div class="container">
-    <div class="jumbotron">
-      <div class="container">
-        <h2>{{ page.title }}</h2>
-        <h3>Purpose</h3>
+<div class="container-fluid">
+    <h2 class="text-center">{{ page.title }}</h2>
+    <h3>About me</h3>
+    <div class="well well-sm">
+        <div class="row">
+          <div class="col-lg-1 col-md-1 col-xs-1">
+            <img class="img-circle" src="{{ site.baseurl }}/static/img/{{ site.avatar }}" alt="{{ site.author }}'s pic" />
+          </div>
+          <div>
+            <p>Hi I'm {{ site.author }}. I was born in Porto Alegre - Brazil and I'm envolved with systems development since 2006</p>
+          </div>
+        </div>
+    </div>
+    <h3>Purpose</h3>
+    <div class="well well-sm">
         <p>Create new and better concepts with design patterns and best practices for application development. Working together with a team focused on better solution for applications, independent of the language used and the plataforma that the system will be used.</p>
-      </div>
     </div>
     <div class="row">
         <h2>Academic education</h2>
@@ -37,4 +46,8 @@ lang: en
         </section>
         {% endfor %}
     </div>
+</div>
+<div class="container">
+  <h2>Current Skills</h2>
+  {% include skills.html %}
 </div>
