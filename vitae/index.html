@@ -9,14 +9,18 @@ lang: en
 
 <div class="container">
     <h2 class="text-center">{{ page.title }}</h2>
-    <h3>About me</h3>
+    <h3>About {{ site.author }}</h3>
     <div class="well well-sm">
         <div class="row">
-          <div class="col-lg-1 col-md-1 col-xs-1">
+          <div class="col-lg-2 col-md-2 col-xs-2">
             <img class="img-circle" src="{{ site.baseurl }}/static/img/{{ site.avatar }}" alt="{{ site.author }}'s pic" />
           </div>
-          <div>
-            <p>Hi I'm {{ site.author }}. I was born in Porto Alegre - Brazil and I'm envolved with systems development since 2006</p>
+          <div class="col-lg-10 col-md-10 col-xs-10 text-left">
+            I'm 31 years old.
+            Was born in Porto Alegre - Brazil.
+            I'm married to Daniela Priscila Lins
+            We had two beautiful children Pedro Henrique Lins Vieira and Ana Carolina Lins Vieira.
+            I'm envolved with systems development since 2006.
           </div>
         </div>
     </div>
