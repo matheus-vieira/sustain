@@ -6,7 +6,7 @@
     <div id="navbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a></li>
-        {% assign pages = site.pages | where:"header", 1 %}
+        {% assign pages = site.pages | where: "header", 1 %}
         {% for page in pages %}
           <li><a href="{{ page.url }}">{{ page.link_text }}</a></li>
         {% endfor %}

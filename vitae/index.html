@@ -30,7 +30,8 @@ lang: en
     </div>
     <div class="row">
         <h2>Academic education</h2>
-        {% for graduation in site.graduations %}
+        {% assign graduations = site.graduations | sort: 'url', 'last' %}
+        {% for graduation in graduations %}
         <section class="col-lg-4 col-md-6 col-xs-12">
             {{ graduation.output }}
         </section>
@@ -38,7 +39,8 @@ lang: en
     </div>
     <div class="row">
         <h2>Professional Experience</h2>
-        {% for experience in site.experiences %}
+        {% assign experiences = site.experiences| sort: 'order', 'last' %}
+        {% for experience in experiences %}
         <section class="col-md-4">
             {{ experience.output }}
         </section>
