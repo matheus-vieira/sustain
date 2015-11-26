@@ -2,13 +2,20 @@
  * Created by fabiomadeira on 25/02/15.
  */
 // jQuery for page scrolling feature
-jQuery(document).ready(function(e) {
-    e(".scroll").click(function(t) {
+var doc = jQuery(document);
+doc.ready(function(e) {
+    var toScroll = e(".scroll");
+    toScroll.click(function(t) {
+        var el, offSet, body;
         t.preventDefault();
-        e("html,body").animate({
-            scrollTop: e(this.hash).offset().top
-        }, 1e3)
-    })
+        el = e(this.hash);
+        offSet = el.offset();
+        body = e("html,body");
+        //noinspection MagicNumberJS
+        body.animate({
+            scrollTop: offSet.top
+        }, 1e3);
+    });
 });
 
 

@@ -2,7 +2,7 @@
 layout: layout
 permalink: /blog/
 header: 1
-link_text: BLOG
+link_text: Blog
 title: Blog
 lang: en
 ---
@@ -13,9 +13,9 @@ lang: en
     <div class="panel-body">
 		{% for post in site.posts %}
 			<div class="row">
-				 <div class="col-sm-4 col-md-4 col-lg-4"><h5 style="text-align: right">
+				 <div class="col-sm-4 col-md-4 col-lg-4"><h5 style="text-align: right;">
 					 {{ post.date | date: "%B %e, %Y" }}</h5></div>
-				 <div class="col-sm-8 col-md-8 col-lg-8"><h5 style="text-align: left">
+				 <div class="col-sm-8 col-md-8 col-lg-8"><h5 style="text-align: left;">
 					 <strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h5></div>
 			</div>
 	    {% endfor %}

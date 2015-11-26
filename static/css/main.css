@@ -3,7 +3,7 @@
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid rgb(13, 194, 234);
@@ -30,6 +30,7 @@ body {
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {

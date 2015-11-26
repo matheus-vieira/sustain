@@ -1,14 +1,14 @@
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="{{ site.baseurl }}/"><i class="fa fa-home"></i> {{ site.author}}</a>
+      <a class="navbar-brand" href="{{ site.baseurl }}/" title="Home"><i class="fa fa-home"></i> {{ site.author}}</a>
     </div>
     <div id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a></li>
+        <li><a href="{{ site.baseurl }}/" title="Home"><i class="fa fa-home"></i></a></li>
         {% assign pages = site.pages | where: "header", 1 %}
         {% for page in pages %}
-          <li><a href="{{ page.url }}">{{ page.link_text }}</a></li>
+          <li><a href="{{ page.url }}" title="{{ page.link_text }}">{{ page.link_text }}</a></li>
         {% endfor %}
       </ul>
     </div>
